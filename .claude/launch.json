@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pipelineworks-static",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "C:\\Users\\dolec\\OneDrive\\Dokumenty\\Podnikání\\Agentura\\WEB\\pipelineworks\\serve.ps1", "-Port", "5500"],
+      "port": 5500
+    },
+    {
+      "name": "rozepis-static",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoProfile", "-Command", "& ([scriptblock]::Create((Get-Content -Raw -LiteralPath 'C:\\Users\\dolec\\OneDrive\\Dokumenty\\Podnikání\\Agentura\\WEB\\Claude\\serve.ps1'))) -Port 8123 -Root 'C:\\Users\\dolec\\OneDrive\\Dokumenty\\Podnikání\\Agentura\\WEB\\Claude'"],
+      "port": 8123
+    }
+  ]
+}

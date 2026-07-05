@@ -1,0 +1,7 @@
+# Osobní nastavení Claude Code (oprávnění apod.) — necommitovat
+.claude/settings.local.json
+
+# OS smetí
+Thumbs.db
+.DS_Store
+desktop.ini
