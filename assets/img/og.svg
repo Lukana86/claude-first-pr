@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="'Space Grotesk','Inter',Arial,sans-serif">
+  <rect width="1200" height="630" fill="#FAFAF7"/>
+  <rect width="1200" height="630" fill="none"/>
+
+  <!-- brand -->
+  <text x="80" y="96" font-size="34" font-weight="700" fill="#1B3A6B">Rozepiš<tspan fill="#F2C230">|</tspan></text>
+
+  <!-- headline -->
+  <text x="80" y="230" font-size="62" font-weight="700" fill="#1A1D21">Vaši zákazníci jsou</text>
+  <text x="80" y="300" font-size="62" font-weight="700" fill="#1A1D21">na LinkedInu.</text>
+  <text x="80" y="370" font-size="62" font-weight="700" fill="#1B3A6B">Vaše firma tam mlčí.</text>
+  <text x="80" y="440" font-size="30" font-weight="400" fill="#5D636B" font-family="'Inter',Arial,sans-serif">Rozmluvíme ji — hlasem vašich lidí, bez jejich času.</text>
+
+  <!-- před/po motiv vpravo -->
+  <g transform="translate(770,120)">
+    <!-- surová poznámka -->
+    <g transform="rotate(-3 0 0)">
+      <rect x="0" y="0" width="330" height="120" rx="12" fill="#FBF1CE" stroke="#E8C64B"/>
+      <text x="20" y="42" font-size="17" font-family="'IBM Plex Mono',monospace" fill="#4a4326">expedovali jsme</text>
+      <text x="20" y="66" font-size="17" font-family="'IBM Plex Mono',monospace" fill="#4a4326">formu za 3 týdny</text>
+      <text x="20" y="90" font-size="17" font-family="'IBM Plex Mono',monospace" fill="#4a4326">místo šesti…</text>
+    </g>
+    <!-- šipka -->
+    <text x="165" y="168" font-size="26" fill="#1B3A6B" text-anchor="middle">↓</text>
+    <!-- hotový post -->
+    <g transform="translate(0,180)">
+      <rect x="0" y="0" width="330" height="230" rx="12" fill="#FFFFFF" stroke="#E4E2D8"/>
+      <circle cx="34" cy="36" r="20" fill="#2f5c8f"/>
+      <text x="34" y="42" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">MN</text>
+      <text x="66" y="32" font-size="16" font-weight="600" fill="#1A1D21">Martin Navrátil</text>
+      <text x="66" y="52" font-size="13" fill="#5D636B" font-family="'Inter',Arial">Jednatel · 2 h</text>
+      <text x="20" y="92" font-size="15" fill="#26292d" font-family="'Inter',Arial">Německý zákazník chtěl formu</text>
+      <text x="20" y="114" font-size="15" fill="#26292d" font-family="'Inter',Arial">za tři týdny místo šesti.</text>
+      <text x="20" y="146" font-size="15" fill="#26292d" font-family="'Inter',Arial">Kývli jsme. Ne kvůli zázraku —</text>
+      <text x="20" y="168" font-size="15" fill="#26292d" font-family="'Inter',Arial">kvůli lidem, co vzali dvě soboty.</text>
+      <text x="20" y="200" font-size="14" font-weight="600" fill="#0A66C2" font-family="'Inter',Arial">#strojírenství</text>
+    </g>
+  </g>
+</svg>

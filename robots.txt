@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /ochrana-osobnich-udaju/
+Disallow: /obchodni-podminky/
+
+Sitemap: https://rozepis.cz/sitemap.xml
