@@ -3,4 +3,4 @@ Allow: /
 Disallow: /ochrana-osobnich-udaju/
 Disallow: /obchodni-podminky/
 
-Sitemap: https://rozepis.cz/sitemap.xml
+Sitemap: https://rozepsano.cz/sitemap.xml

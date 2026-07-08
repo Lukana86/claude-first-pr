@@ -1,6 +1,6 @@
-# Rozepiš — marketingový web
+# Rozepsáno — marketingový web
 
-Statický web služby **Rozepiš**: z pár minut myšlenek týmu děláme pravidelný LinkedIn obsah pro osobní profily celé firmy.
+Statický web služby **Rozepsáno**: z pár minut myšlenek týmu děláme pravidelný LinkedIn obsah pro osobní profily celé firmy.
 
 Bez build-stepu, bez frameworku — čisté HTML + CSS + trocha vanilla JS. Nasadí se pouhým nahráním souborů (GitHub Pages, Netlify, Cloudflare Pages, Vercel).
 
@@ -8,8 +8,8 @@ Bez build-stepu, bez frameworku — čisté HTML + CSS + trocha vanilla JS. Nasa
 
 ```
 /
-├── index.html                      # onepager (hero, problém, jak to funguje, páka týmu,
-│                                   #   ukázky, srovnání, zakladatel, ceník, FAQ, CTA formulář)
+├── index.html                      # onepager (hero, proč LinkedIn, problém, jak to funguje,
+│                                   #   ukázka, diskrétnost, srovnání, ceník, FAQ, CTA formulář)
 ├── ukazky/index.html               # galerie ukázek před / po
 ├── cenik/index.html                # detailní ceník + FAQ k ceně
 ├── ochrana-osobnich-udaju/         # GDPR (noindex)
@@ -37,7 +37,7 @@ python -m http.server 8000
 
 ## Barvy a značka na jednom místě
 
-Vše laditelné je v [`assets/css/tokens.css`](assets/css/tokens.css). Chcete jinou akcentní barvu? Změňte `--accent`. Název „Rozepiš" je v textu stránek (`.brand__mark`).
+Vše laditelné je v [`assets/css/tokens.css`](assets/css/tokens.css). Chcete jinou akcentní barvu? Změňte `--accent`. Název „Rozepsáno" je v textu stránek (`.brand__mark`).
 
 - Akcent: inkoustová modrá `#1B3A6B`
 - Signální žlutá `#F2C230` — jen pro „surový vstup" (post-it logika)
@@ -57,27 +57,25 @@ Web je vyplněný tak, aby působil hotově. Část hodnot je ale **vymyšlená*
    Meta tagy už na `og.png` odkazují. (SVG sociální sítě nerenderují.)
    Otevřete `og.svg` v prohlížeči / Figmě / Inkscape a uložte jako PNG.
 3. **Analytika** — odkomentovat Plausible v `<head>` (bez cookies → bez cookie lišty).
-4. **Doména** — v kódu je `https://rozepis.cz` (canonical, OG, sitemap). Upravit dle skutečné domény.
+4. **Doména** — v kódu je `https://rozepsano.cz` (canonical, OG, sitemap). Upravit dle skutečné domény.
 
 ### B) Vymyšlené hodnoty — ověřit / přepsat (upravíme později)
 
-Tyto věci jsou předvyplněné realistickými návrhy, aby web nevypadal rozpracovaně:
+Web je záměrně ve **stealth režimu** (bez jména a fotky zakladatele, bez sekce „Kdo za tím stojí")
+a ukázky postů jsou označené jako ilustrační — to je trvalý produkční přístup, ne placeholder
+k nahrazení. Přesto zbývá ověřit:
 
-- **Zakladatel** — jméno „Lukáš Doleček", monogram „LD" místo fotky, odkaz na LinkedIn
-  (sekce „Kdo za tím stojí"). Doplnit reálnou fotku a správný profil.
-- **Reference** — citace „Tomáš Bervida, Kovovýroba Haná s.r.o." je vymyšlená; nahradit reálnou
-  (nebo dočasně skrýt).
-- **Ukázky postů** — vzorové posty nahradit anonymizovanými ukázkami z pilotního klienta
-  (nejcennější obsah webu).
-- **Ceník** — částky 9 900 / 19 900 Kč potvrdit.
+- **Název značky „Rozepsáno"** — ověřit dostupnost v ARES/justice.cz, ochrannou známku (ÚPV),
+  doménu `rozepsano.cz`, handle na LinkedInu a Instagramu, než se web spustí naostro.
+- **Ceník** — částky 15 900 / 27 900 Kč (balíčky Tým do 5 a Tým 5 až 10) potvrdit.
 - **Patička / právní** — IČO `17654321`, sídlo „Nádražní 42, 750 02 Přerov", e-mail
-  `ahoj@rozepis.cz`, plátcovství DPH, lhůty v GDPR i obchodních podmínkách. Vše ověřit.
-- **Calendly** — odkaz `calendly.com/rozepis/uvod-20-min` nahradit reálným.
+  `ahoj@rozepsano.cz`, plátcovství DPH, lhůty v GDPR i obchodních podmínkách. Vše ověřit.
+- **Calendly** — odkaz `calendly.com/rozepsano/uvod-20-min` nahradit reálným.
 
 ## Nasazení na GitHub Pages s vlastní doménou
 
 1. V nastavení repozitáře → Pages zvolte zdroj (branch `main`, složka `/`).
-2. Pro vlastní doménu přidejte soubor `CNAME` s doménou (např. `rozepis.cz`) do kořene
+2. Pro vlastní doménu přidejte soubor `CNAME` s doménou (např. `rozepsano.cz`) do kořene
    a nastavte DNS. (Nedávám ho sem, aby nekolidoval s tvou skutečnou doménou.)
 3. Root-absolutní odkazy (`/ukazky/`, `/assets/...`) fungují na vlastní doméně.
    Na `username.github.io/repo/` by se musely upravit na relativní.

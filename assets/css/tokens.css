@@ -1,23 +1,23 @@
 /* =========================================================================
-   Rozepiš — Design tokens
+   Rozepsáno — Design tokens
    Jediné místo pravdy pro barvy, typografii a rozměry.
    Určeno k opětovnému použití v klientském portálu (fáze 3).
    ========================================================================= */
 
 :root {
   /* --- Barvy: základ --- */
-  --paper:        #FAFAF7;   /* pozadí — papír, ne krém */
+  --paper:        #FAF8F3;   /* pozadí — papír, ne krém */
   --paper-2:      #F3F2EC;   /* jemně odlišené sekce */
   --ink:          #1A1D21;   /* hlavní text */
   --ink-soft:     #3A3F45;   /* podtext */
-  --muted:        #5D636B;   /* sekundární text, popisky */
+  --muted:        #5D6067;   /* sekundární text, popisky */
   --line:         #E4E2D8;   /* okraje, oddělovače */
   --line-strong:  #D2CFC1;
   --card:         #FFFFFF;   /* karty */
 
-  /* --- Barvy: akcent (inkoustová modrá) --- */
+  /* --- Barvy: akcent (inkoustová modrá, zafixováno) --- */
   --accent:       #1B3A6B;
-  --accent-hover: #14294D;
+  --accent-hover: #142C50;
   --accent-soft:  #E8EDF4;   /* světlé pozadí akcentu */
   --accent-ink:   #FFFFFF;   /* text na akcentu */
 
